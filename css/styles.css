@@ -264,7 +264,7 @@ line-height: 1.15;
 text-align: center;
 letter-spacing: 0.03em;
 margin-top: 40px;
-margin-bottom: 30px;
+margin-bottom: 12px;
  }
 
  .form-field{
@@ -341,6 +341,7 @@ margin-left: 165px;
  }
  textarea{
     resize: none;
+    height: 120px;
  }
  .form-field textarea{
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -354,7 +355,7 @@ margin-left: 165px;
     outline: none;
     border-color: var(--activ-text-color);
  }
- .form-field input::placeholder{
+ .form-field textarea::placeholder{
     font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.01em;
